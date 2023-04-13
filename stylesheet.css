@@ -17,7 +17,7 @@ body {
   color: white;
   text-decoration: none;
   padding: 10px;
-  font-size: 11pt;
+  font-size: 14pt;
   white-space: nowrap;
 }
 #menu a:hover {
@@ -40,13 +40,47 @@ body {
 .maintext a:hover {
   color: #f4ffbf;
 }
-#sectiontitle {
+h1 {
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed';
+  font-size: 36pt;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+h3 {
   text-transform: uppercase;
   font-family: 'Roboto Condensed';
   font-size: 24pt;
   margin-top: 20px;
   margin-bottom: 10px;
   margin-left: 30px;
+}
+h4 {
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed';
+  font-size: 24pt;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  font-style: italic;
+}
+h5 {
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed';
+  font-size: 16pt;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+h6 {
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed';
+  font-size: 16pt;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  font-style: italic;
 }
 p {
   margin: 30px;
